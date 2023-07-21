@@ -17,3 +17,25 @@
   margin-left:60%!important;
   margin-top: 100px;
 } 
+.text{
+  width: 50%!important;
+}
+
+.flexBox{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.category{
+  font-weight: 100;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.img-fluid{
+  width:50%;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.b1{
+  margin-bottom: 20px!important;
+}
