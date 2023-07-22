@@ -14,8 +14,12 @@
   height:350px!important;
 }
 .card-img-overlay{
-  margin-left:60%!important;
+  display:flex!important;
+  flex-direction: column!important;
+  width: 50%!important;
+  margin-left:50%!important;
   margin-top: 100px;
+  padding:0!important;
 } 
 .text{
   width: 50%!important;
@@ -38,4 +42,20 @@
 }
 .b1{
   margin-bottom: 20px!important;
+}
+.card{
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+  transition: box-shadow 0.2s ease-in-out;
+}
+.card:hover{
+  cursor:pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 20, 0.3);
+}
+.card-text {
+  color:rgb(166, 13, 13)!important;
+  font-weight: bold!important;
+}
+.card-img-top{
+  margin-bottom:20px;
 }

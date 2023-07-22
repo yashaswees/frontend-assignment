@@ -8,8 +8,8 @@ export default function Home() {
         <div className="card text-bg-dark border-0">
   <img src="/images/bgg.jpg" className="card-img" alt="Background Image"/>
   <div className="card-img-overlay container">
-    <h5 className="card-title black display-6 fw-bolder">WELCOME to JEWEL</h5>
-    <p className="card-text lead fs-3 black">Shine with Elegance</p>
+    <span className="card-title black display-6 fw-bolder">WELCOME to JEWEL</span> 
+    <span className="lead fs-3 black">Shine with Elegance</span>
   </div>
 </div>
 <Products/>

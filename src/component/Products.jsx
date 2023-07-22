@@ -55,7 +55,7 @@ const Products = () => {
           <button
             className="btn btn-outline-dark me-2"
             onClick={() => setFilter(data)}>
-            All{" "}
+            All
           </button>
           <button
             className="btn btn-outline-dark me-2"
@@ -88,13 +88,13 @@ const Products = () => {
                   />
                   <div classNam="card-body">
                     <h5 className="card-title mb-0">
-                      {product.title.substring(0, 12)}...
+                      {product.title.substring(0, 39)}
                     </h5>
                     <p className="card-text fw-bolder ">${product.price}</p>
                     <a
-                      href="#"
+                      href={`/products/${product.id}`}
                       className="btn btn-outline-dark me-2">
-                      Buy Now
+                      View Product
                     </a>
                   </div>
                 </div>
